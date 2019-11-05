@@ -178,8 +178,9 @@ a.dropdown-toggle {
   margin-left: 0;
   font-size: 10px;
   vertical-align: top;
+  float: left;
   width: auto;
-  padding-left: 3px;
+  padding-right: 3px;
 }
 .dropdown-toggle img {
   margin-right: 30px;
@@ -351,7 +352,7 @@ header {
   text-align: center;
 }
 .page-not-found .txt1 {
-    font-family: "IRANSans" !important;
+  font-family: "IRANSans" !important;
   font-size: 30px;
   text-transform: uppercase;
   color: #242d2e;
@@ -378,7 +379,7 @@ header {
   margin-bottom: 25px;
 }
 .department1 .caption {
-    font-family: "IRANSans" !important;
+  font-family: "IRANSans" !important;
   font-size: 25px;
   color: #313131;
   font-weight: 400;
@@ -633,7 +634,7 @@ header {
 }
 
 .sidebar-title {
-    font-family: "IRANSans" !important;
+  font-family: "IRANSans" !important;
   font-weight: 400;
   text-transform: uppercase;
   color: #333333;
@@ -926,7 +927,7 @@ header {
   padding-bottom: 30px;
 }
 .comment-block .caption .txt3 {
-    font-family: "IRANSans" !important;
+  font-family: "IRANSans" !important;
   font-size: 13px;
   letter-spacing: 0.5px;
 }
@@ -1115,7 +1116,7 @@ header {
   padding-left: 10px;
 }
 .room-wide .caption .txt3 {
-    font-family: "IRANSans" !important;
+  font-family: "IRANSans" !important;
   font-size: 32px;
   color: #0073b7;
   text-transform: uppercase;
@@ -1275,7 +1276,7 @@ header {
   padding-bottom: 5px;
 }
 .our-rooms-caption .txt3 {
-    font-family: "IRANSans" !important;
+  font-family: "IRANSans" !important;
   font-size: 13px;
   padding-bottom: 15px;
 }
@@ -1476,7 +1477,7 @@ header {
   padding-bottom: 25px;
 }
 .details-wrapper .txt3 {
-    font-family: "IRANSans" !important;
+  font-family: "IRANSans" !important;
   position: relative;
   border-top: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
@@ -2147,7 +2148,7 @@ header {
   padding-top: 20px;
 }
 .slider-nav .txt1 {
-    font-family: "IRANSans" !important;
+  font-family: "IRANSans" !important;
   font-size: 32px;
   color: #333333;
   line-height: 1.2;
@@ -2435,7 +2436,7 @@ header {
   padding-right: 20px;
 }
 .place .caption .txt2 {
-    font-family: "IRANSans" !important;
+  font-family: "IRANSans" !important;
   font-size: 33px;
   color: #333333;
 }
@@ -2869,7 +2870,7 @@ header {
 }
 .navbar_ .navbar-nav > li {
   display: block;
-  float: left;
+  float: right;
   white-space: nowrap;
   margin-left: 20px;
 }
@@ -2877,17 +2878,20 @@ header {
   margin-left: 0;
 }
 .navbar_ .navbar-nav > li > .nav-link i {
-  padding-left: 3px;
+  padding-right: 5px;
+  position: relative;
+  top: 3px;
 }
 .top-wrapper-dark .navbar_ .navbar-nav > li > .nav-link {
   color: #fff !important;
-  line-height: 72px;
+  line-height: 50px;
 }
 .navbar_ .navbar-nav > li > .nav-link {
   display: block;
   text-decoration: none;
   font-family: "IRANSans" !important;
-  font-size: 19px;
+  font-size: 16px;
+  font-weight: 500;
   line-height: 132px;
   padding: 0 10px;
   margin: 0;
@@ -2972,7 +2976,7 @@ header {
 
 /* ============================= main layout ====================== */
 h2 {
-    font-family: "IRANSans" !important;
+  font-family: "IRANSans" !important;
   font-weight: 400;
   font-size: 30px;
   color: #333333;
@@ -3149,7 +3153,7 @@ h2 a {
 }
 
 .btn-default.btn-cf-submit {
-    font-family: "IRANSans" !important;
+  font-family: "IRANSans" !important;
   display: block;
   color: #fff;
   border: none;
@@ -3235,7 +3239,7 @@ h2 a {
 }
 
 .btn-default.btn-cf-submit3 {
-    font-family: "IRANSans" !important;
+  font-family: "IRANSans" !important;
   display: block;
   color: #fff;
   border: none;
