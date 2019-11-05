@@ -1910,15 +1910,15 @@ header {
   display: none;
 }
 .form1 .col1 {
-  float: left;
+  float: right;
   width: 23%;
 }
 .form1 .col2 {
-  float: left;
+  float: right;
   width: 12%;
 }
 .form1 .col3 {
-  float: left;
+  float: right;
   width: 18%;
 }
 
@@ -1953,7 +1953,7 @@ header {
   color: #fff;
   font-size: 12px;
   text-transform: uppercase;
-  text-decoration: underline;
+  text-decoration: none;
   line-height: 65px;
   position: relative;
   cursor: pointer;
@@ -4057,4 +4057,8 @@ h2 a {
 }
 .m {
   margin-top: -1600px;
+}
+
+a{
+  text-decoration: none !important;
 }
