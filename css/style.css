@@ -110,14 +110,16 @@ body {
 
 .search-close {
   position: absolute;
-  right: 0;
+  left: 0;
   top: 0;
 }
 
 .search-field {
-  padding-right: 100px;
-  border-left: 1px solid rgba(246, 174, 0, 0.2);
-  padding-left: 10px;
+  padding-left: 100px;
+  border-right: 1px solid rgba(246, 174, 0, 0.2);
+  padding-right: 10px;
+  padding-top: 10px;
+  height: 64px;
 }
 .search-field .form-control {
   border: none;
@@ -126,6 +128,7 @@ body {
   outline: none;
   box-shadow: none;
   color: #333;
+  text-align: right;
 }
 
 .top-wrapper {
@@ -183,7 +186,7 @@ a.dropdown-toggle {
   padding-right: 3px;
 }
 .dropdown-toggle img {
-  margin-right: 30px;
+  margin-left: 10px;
   vertical-align: middle;
   border-radius: 2px;
 }
@@ -215,13 +218,13 @@ a.dropdown-toggle {
   border-top: none;
 }
 .dropdown-menu .dropdown-item img {
-  margin-right: 30px;
+  margin-left: 10px;
   vertical-align: top;
   border-radius: 2px;
 }
 
 .currency {
-  float: left;
+  float: right;
 }
 .currency {
   width: 150px;
@@ -238,22 +241,22 @@ a.dropdown-toggle {
 }
 
 .language {
-  float: left;
-  border-left: 1px solid rgba(246, 174, 0, 0.2);
+  float: right;
+  border-right: 1px solid rgba(246, 174, 0, 0.2);
 }
 .language .dropdown-menu {
   width: 270px;
 }
 
 .search-open {
-  float: right;
+  float: left;
 }
 .top-wrapper-dark .search-open {
   color: #fff;
 }
 
 .social-wrapper {
-  float: right;
+  float: left;
   padding: 0 20px;
   border-left: 1px solid rgba(246, 174, 0, 0.2);
 }
@@ -286,10 +289,10 @@ a.dropdown-toggle {
 }
 
 .account {
-  float: right;
+  float: left;
 }
 .account a.dropdown-toggle {
-  padding-left: 0;
+  padding-right: 0;
 }
 .account .dropdown-menu {
   width: 100%;
@@ -2259,7 +2262,7 @@ header {
 }
 .room .caption .txt4 a i {
   font-size: 16px;
-  padding-left: 18px;
+  padding-right: 18px;
   vertical-align: middle;
 }
 .room .select-txt {
@@ -2280,16 +2283,16 @@ header {
 .room .select-txt a span {
   display: inline-block;
   position: relative;
-  padding-right: 30px;
+  padding-left: 30px;
 }
 .room .select-txt a i {
   position: absolute;
   top: 6px;
-  right: 0;
+  left: 0;
   transition: all 0.3s ease-out;
 }
 .room .select-txt a:hover i {
-  margin-right: -10px;
+  margin-left: -10px;
 }
 .room .room-icons {
   position: absolute;
@@ -2371,12 +2374,12 @@ header {
   overflow: hidden;
 }
 #best-places .title1 {
-  text-align: left;
+  text-align: right;
   padding-bottom: 0px;
   font-size: 30px;
 }
 #best-places .title2 {
-  text-align: left;
+  text-align: right;
   background: none;
   font-size: 13px;
 }
@@ -2448,7 +2451,7 @@ header {
 }
 .place .caption .txt3 i {
   color: #f8af00;
-  padding-right: 10px;
+  padding-left: 10px;
 }
 .place .caption .txt4 {
   border-top: 1px solid #eeeeee;
@@ -2465,7 +2468,7 @@ header {
   height: 1px;
   background: #f8af00;
   position: absolute;
-  left: 0;
+  right: 0;
   top: -1px;
 }
 .place .caption .txt5 {
@@ -2478,8 +2481,8 @@ header {
   padding-bottom: 15px;
 }
 .rest1 figure {
-  margin: 0 15px 0 0;
-  float: left;
+  margin: 0 0 0 15px;
+  float: right;
 }
 .rest1 .rest1-caption {
   display: table;
@@ -4059,6 +4062,6 @@ h2 a {
   margin-top: -1600px;
 }
 
-a{
+a {
   text-decoration: none !important;
 }
